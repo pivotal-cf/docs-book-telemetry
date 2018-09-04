@@ -15,16 +15,16 @@ feedback_enabled: true
 sections:
 - repository:
     name: pivotal-cf/docs-telemetry
-    ref: 'master'
-  directory: telemetry
-  subnav_template: telemetry.erb
+    ref: '0.5'
+  directory: telemetry/0-5
+  subnav_template: telemetry_0_5.erb
   product_info:
     use_local_header: true
-    latest_stable_version:
+    latest_stable_version: '0.5'
     local_header_img: /images/cloud_rings.png
     local_header_title: Telemetry Collector for PCF
-    search_placeholder: Search Telemetry Collector
-    url_prefix: telemetry
+    search_placeholder: Search Telemetry Collector 0.5
+    url_prefix: telemetry/0-5
     local_product_version: 0.5
     local_header_links: []
     local_header_version_list:
