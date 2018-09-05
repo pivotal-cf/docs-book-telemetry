@@ -15,7 +15,7 @@ feedback_enabled: true
 sections:
 - repository:
     name: pivotal-cf/docs-telemetry
-    ref: '0.5'
+    ref: 'master'
   directory: telemetry/0-5
   subnav_template: telemetry_0_5.erb
   product_info:
