@@ -15,6 +15,25 @@ feedback_enabled: true
 sections:
 - repository:
     name: pivotal-cf/docs-telemetry
+    ref: '0.7'
+  directory: telemetry/0-7
+  subnav_template: telemetry_0_7.erb
+  product_info:
+    use_local_header: true
+    latest_stable_version: '0.7'
+    local_header_img: /images/cloud_rings.png
+    local_header_title: Pivotal Telemetry Collector
+    search_placeholder: Search Telemetry Collector 0.7
+    url_prefix: telemetry/0-7
+    local_product_version: 0.7
+    local_header_links: []
+    local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/0-6
+        display_name: v0.6
+      - url_prefix: http://docs.pivotal.io/telemetry/0-5
+        display_name: v0.5
+- repository:
+    name: pivotal-cf/docs-telemetry
     ref: '0.6'
   directory: telemetry/0-6
   subnav_template: telemetry_0_6.erb
@@ -25,9 +44,11 @@ sections:
     local_header_title: Pivotal Telemetry Collector
     search_placeholder: Search Telemetry Collector 0.6
     url_prefix: telemetry/0-6
-    local_product_version: 0.6
+    local_product_version: 0.7
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/0-7
+        display_name: v0.7
       - url_prefix: http://docs.pivotal.io/telemetry/0-5
         display_name: v0.5
 - repository:
@@ -42,8 +63,10 @@ sections:
     local_header_title: Pivotal Telemetry Collector
     search_placeholder: Search Telemetry Collector 0.5
     url_prefix: telemetry/0-5
-    local_product_version: 0.5
+    local_product_version: 0.7
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/0-7
+        display_name: v0.7
       - url_prefix: http://docs.pivotal.io/telemetry/0-6
         display_name: v0.6
