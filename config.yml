@@ -15,6 +15,29 @@ feedback_enabled: true
 sections:
 - repository:
     name: pivotal-cf/docs-telemetry
+    ref: '1.1'
+  directory: telemetry/1-1
+  subnav_template: telemetry_1_1.erb
+  product_info:
+    use_local_header: true
+    latest_stable_version: '1.1'
+    local_header_img: /images/cloud_rings.png
+    local_header_title: Pivotal Telemetry Collector
+    search_placeholder: Search Telemetry Collector 1.1
+    url_prefix: telemetry/1-1
+    local_product_version: 1.1
+    local_header_links: []
+    local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/1-0
+        display_name: v1.0
+      - url_prefix: http://docs.pivotal.io/telemetry/0-7
+        display_name: v0.7
+      - url_prefix: http://docs.pivotal.io/telemetry/0-6
+        display_name: v0.6
+      - url_prefix: http://docs.pivotal.io/telemetry/0-5
+        display_name: v0.5
+- repository:
+    name: pivotal-cf/docs-telemetry
     ref: '1.0'
   directory: telemetry/1-0
   subnav_template: telemetry_1_0.erb
@@ -28,6 +51,8 @@ sections:
     local_product_version: 1.0
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/1-1
+        display_name: v1.1
       - url_prefix: http://docs.pivotal.io/telemetry/0-7
         display_name: v0.7
       - url_prefix: http://docs.pivotal.io/telemetry/0-6
@@ -49,6 +74,8 @@ sections:
     local_product_version: 0.7
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/1-1
+        display_name: v1.1
       - url_prefix: http://docs.pivotal.io/telemetry/1-0
         display_name: v1.0
       - url_prefix: http://docs.pivotal.io/telemetry/0-6
@@ -70,6 +97,8 @@ sections:
     local_product_version: 0.7
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/1-1
+        display_name: v1.1
       - url_prefix: http://docs.pivotal.io/telemetry/1-0
         display_name: v1.0
       - url_prefix: http://docs.pivotal.io/telemetry/0-7
@@ -91,6 +120,8 @@ sections:
     local_product_version: 0.7
     local_header_links: []
     local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/telemetry/1-1
+        display_name: v1.1
       - url_prefix: http://docs.pivotal.io/telemetry/1-0
         display_name: v1.0
       - url_prefix: http://docs.pivotal.io/telemetry/0-7
